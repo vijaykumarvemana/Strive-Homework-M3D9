@@ -102,9 +102,9 @@ const displayProducts = (data) => {
     <div class="card">
       <img src="${product.imageUrl}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">${product.name}</h5>
-        <p class="card-text">${product.description}</div>
-            <p class="card-text"><b>$${ product.price}</b></div>
+        <h5 class="card-title">${product.name}<a class="ml-4" href="./details.html?Id=${product._id}"><small>View Details</small></a></h5>
+       
+        <p class="card-text "><b>$${ product.price}</b></div>
     </div>
   </div>
 `
